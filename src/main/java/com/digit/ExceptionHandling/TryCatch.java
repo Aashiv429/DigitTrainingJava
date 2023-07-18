@@ -4,9 +4,9 @@ import java.util.Scanner;
 
 public class TryCatch {
 public static void main(String[] args) {
-	try
+	try(Scanner sc = new Scanner(System.in))
 	{
-		Scanner sc = new Scanner(System.in);
+		
 		System.out.println("Division Operation");
 		System.out.println("Enter Numerator");
 		int num = sc.nextInt();
