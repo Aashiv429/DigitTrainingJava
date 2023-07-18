@@ -1,4 +1,4 @@
-package com.digit.testProj.p1;
+package com.digit.ExceptionHandling;
 
 import java.util.Scanner;
 
